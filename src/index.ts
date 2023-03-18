@@ -1,8 +1,4 @@
-class SortData {
-	constructor(public data: number[]) {}
-
-	sort(): void {}
-}
+import { SortData } from "./sortData"
 
 const dateArray = [
 	new Date(2010, 1, 12),
