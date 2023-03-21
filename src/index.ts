@@ -1,4 +1,5 @@
-import { SortData } from "./sortData"
+import { SortData } from "./SortData"
+import { Numbers } from "./Numbers"
 
 const dateArray = [
 	new Date(2010, 1, 12),
@@ -9,8 +10,9 @@ const dateArray = [
 
 const years = dateArray.map((date) => date.getFullYear())
 
-const sortData = new SortData(years)
+const numbersData = new Numbers(years)
+const sortData = new SortData(numbersData)
 
 sortData.sort()
 
-console.log(sortData.data)
+console.log(numbersData.number)
