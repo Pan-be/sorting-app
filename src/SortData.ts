@@ -1,7 +1,11 @@
-import { Numbers } from "./Numbers"
+interface SortinProps {
+	length: number
+	compare(indexLeft: number, indexRight: number): boolean
+	swap(indexLeft: number, indexRight: number): void
+}
 
 export class SortData {
-	constructor(public data: Numbers) {}
+	constructor(public data: SortinProps) {}
 
 	sort(): void {
 		const { length } = this.data

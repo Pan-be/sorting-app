@@ -2,7 +2,7 @@ import { SortData } from "./SortData"
 import { Numbers } from "./Numbers"
 
 const dateArray = [
-	new Date(2010, 1, 12),
+	new Date(2100, 1, 12),
 	new Date(2009, 6, 6),
 	new Date(2019, 8, 31),
 	new Date(2023, 3, 23),
