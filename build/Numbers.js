@@ -11,7 +11,7 @@ class Numbers {
     swap(indexLeft, indexRight) {
         const leftArg = this.number[indexLeft];
         this.number[indexLeft] = this.number[indexRight];
-        this.number[indexLeft] = leftArg;
+        this.number[indexRight] = leftArg;
     }
     get length() {
         return this.number.length;
