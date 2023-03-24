@@ -1,8 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Strings = void 0;
-class Strings {
+const SortData_1 = require("./SortData");
+class Strings extends SortData_1.SortData {
     constructor(str) {
+        super();
         this.str = str;
     }
     get length() {

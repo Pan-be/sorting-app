@@ -14,14 +14,12 @@ const years = dateArray.map((date) => {
 })
 
 const numbersData = new Numbers(years)
-const sortNumber = new SortData(numbersData)
 
-sortNumber.sort()
+numbersData.sort()
 
 console.log(numbersData.number)
 
 const strings = new Strings("japa")
-const sortStrings = new SortData(strings)
 
-sortStrings.sort()
+strings.sort()
 console.log(strings.str)
