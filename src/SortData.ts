@@ -1,14 +1,13 @@
-interface SortinProps {
-	length: number
-	compare(indexLeft: number, indexRight: number): boolean
-	swap(indexLeft: number, indexRight: number): void
-}
+// interface SortinProps {
+// 	length: number
+// 	compare(indexLeft: number, indexRight: number): boolean
+// 	swap(indexLeft: number, indexRight: number): void
+// }
 
 export abstract class SortData {
-
-abstract compare(indexLeft:number, indexRight:number): boolean
-abstract swap(indexLeft: number, indexRight: number): void
-abstract length: number
+	abstract compare(indexLeft: number, indexRight: number): boolean
+	abstract swap(indexLeft: number, indexRight: number): void
+	abstract length: number
 
 	sort(): void {
 		const { length } = this
